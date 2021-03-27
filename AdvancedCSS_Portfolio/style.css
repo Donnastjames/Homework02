@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin: 0;
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 35px;
+    background-color: ;
+}
+
+nav a {
+    display: inline-flex;
+    font-size: 25px;
+    flex-direction: row-reverse;
+}

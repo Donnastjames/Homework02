@@ -28,7 +28,6 @@ nav a {
     background-color: unset;
     color: var(--light);
     font-weight: bold;
-    text-decoration: none;
     margin-left: 2%;
 
 }
@@ -41,7 +40,8 @@ div h2 {
     padding: 2%;
     width: 100%;
     color: var(--light);
-    background-color: cadetblue;
+    background-image: 'url("https://media.tacdn.com/media/attractions-splice-spp-674x446/07/1a/97/34.jpg")';
+    /*background-color: cadetblue;*/
     font-size: 150%;
     line-height: 100px;
     margin: 0%;

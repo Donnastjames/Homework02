@@ -3,6 +3,10 @@
     --light: #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,13 +19,15 @@ body {
     background-color: var(--background);
     color: var(--light);
     align-items: center;
-    
+    margin-bottom: -1%;
+    margin-top: -2%;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: 7%;
 }
 
 nav a {
@@ -32,26 +38,62 @@ nav a {
 
 }
 h1 {
-    font-size: 200%;
+    font-size: 175%;
+    margin-top: 5%;
 }
 div h2 {
     display: flex;
     justify-content: flex-end;
     padding: 2%;
     width: 100%;
-    color: var(--light);
-    background-image: 'url("https://media.tacdn.com/media/attractions-splice-spp-674x446/07/1a/97/34.jpg")';
-    /*background-color: cadetblue;*/
+    color: darkblue;
     font-size: 150%;
     line-height: 100px;
     margin: 0%;
+    margin-bottom: -4%;
 }
+
+.li-top-row {
+    padding: 2%;   
+  }
+ 
+div h3 {
+    box-sizing: border-box;  
+    float: left;
+    margin-right: 0 4% 2% 2%;
+    padding: 2%;
+    width: 15%;
+    /*margin-left: 1%;
+    margin-top: 0%;*/
+  }
+
+.container1 {
+    display: grid;
+    grid-template-columns: 15% 85% 25% 25%;
+    grid-template-rows: 40%; 
+  }
+
+.container2 {
+    display: grid;
+    grid-template-columns: 15% 85% 25% 25%;
+    grid-template-rows: 600% 25% 25%;
+    grid-template-areas: 
+    "project1 project1 project1 project1"
+    "project2 project2 project3 project3"
+    "project4 project4 project5 project5";
+  }
+    
 @media screen and (max-width: 768px) {
     header, nav {
       flex-direction: column;
     }
 }
+
+@media screen and (min-width: 992px) {
+    header, nav {
+      width: 100%;
+    }
+}
   
- .li-top-row {
-   padding: 2%;   
- }
+ 
+ 

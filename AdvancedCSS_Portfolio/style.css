@@ -67,21 +67,88 @@ div h3 {
     margin-top: 0%;*/
   }
 
+p {
+    margin-right: 75px;
+}
+
 .container1 {
     display: grid;
-    grid-template-columns: 15% 85% 25% 25%;
-    grid-template-rows: 40%; 
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%; 
   }
 
 .container2 {
     display: grid;
-    grid-template-columns: 15% 85% 25% 25%;
-    grid-template-rows: 600% 25% 25%;
-    grid-template-areas: 
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 50% 25% 25%;
+  }
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [col] 225px [col] 225px [col] 225px [col] 225px;
+    /*grid-template-rows: [row] auto [row] auto [row] [row] auto [row] auto [row];*/
+    grid-area: 
     "project1 project1 project1 project1"
     "project2 project2 project3 project3"
     "project4 project4 project5 project5";
+    background-color: #fff;
+    color: #444;
   }
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+  }
+
+.project1 {
+    grid-column: col / span 4;
+    grid-row: row ;
+    line-height: 350px;
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650w=940);
+  }
+
+.project2 {
+    grid-column: col / span 2 ;
+    grid-row: row 2 ;
+  }
+
+.project3 {
+    grid-column: col 3 / span 2 ;
+    grid-row: row 2 ;
+  }
+
+  .project4 {
+    grid-column: col  / span 2 ;
+    grid-row: row 3 ;
+  }
+
+  .project5 {
+    grid-column: col 3 / span 2;
+    grid-row: row 3;
+  }
+
+.project1 {
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650w=940);
+}
+
+.project2 {
+    background-image: url(https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+/*.container2 {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 50% 25% 25%;
+    grid-template-areas: 
+    "project1 project1 project1"
+    "project2 project2 project3 project3"
+    "project4 project4 project5 project5";
+  }*/
     
 @media screen and (max-width: 768px) {
     header, nav {

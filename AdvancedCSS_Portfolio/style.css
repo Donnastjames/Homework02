@@ -1,17 +1,19 @@
 :root {
     --background: #99BBB7;
     --light: #fff;
-}
+  }
 
 html {
     scroll-behavior: smooth;
-}
+  }
 
 body {
     display: flex;
     flex-direction: column;
-}
+  }
 
+/************************************************** Top name section with links 
+***************************************************/
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,26 +23,26 @@ body {
     align-items: center;
     margin-bottom: -1%;
     margin-top: -2%;
-}
+  }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 7%;
-}
+  }
 
 nav a {
     background-color: unset;
     color: var(--light);
     font-weight: bold;
-    margin-left: 2%;
+    margin-left: 2%;    
+  }
 
-}
 h1 {
     font-size: 175%;
     margin-top: 5%;
-}
+  }
 div h2 {
     display: flex;
     justify-content: flex-end;
@@ -51,50 +53,48 @@ div h2 {
     line-height: 100px;
     margin: 0%;
     margin-bottom: -4%;
-}
+  }
 
 .li-top-row {
     padding: 2%;   
   }
- 
+
+/***************************************************** About Me and My Work section
+******************************************************/
 div h3 {
     box-sizing: border-box;  
     float: left;
     margin-right: 0 4% 2% 2%;
     padding: 2%;
     width: 15%;
-    /*margin-left: 1%;
-    margin-top: 0%;*/
   }
 
 p {
-    margin-right: 75px;
-}
+    margin-right: 5%;
+  }
 
 .container1 {
+    display: flex;
+  }
+.container2 {
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: 100%; 
   }
-
-.container2 {
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 50% 25% 25%;
-  }
-
+/***************************************************** Project boxes 
+******************************************************/
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: [col] 225px [col] 225px [col] 225px [col] 225px;
-    /*grid-template-rows: [row] auto [row] auto [row] [row] auto [row] auto [row];*/
+    grid-template-columns: [col] 25% [col] 25% [col] 25% [col] 25%;
+    margin-right: 5%;
     grid-area: 
     "project1 project1 project1 project1"
     "project2 project2 project3 project3"
     "project4 project4 project5 project5";
     background-color: #fff;
     color: #444;
-  }
+  } 
 
 .box {
     background-color: #444;
@@ -122,45 +122,55 @@ p {
     grid-row: row 2 ;
   }
 
-  .project4 {
+.project4 {
     grid-column: col  / span 2 ;
     grid-row: row 3 ;
   }
 
-  .project5 {
+.project5 {
     grid-column: col 3 / span 2;
     grid-row: row 3;
   }
 
 .project1 {
     background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650w=940);
-}
+  }
 
 .project2 {
     background-image: url(https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
+  }
 
-/*.container2 {
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 50% 25% 25%;
-    grid-template-areas: 
-    "project1 project1 project1"
-    "project2 project2 project3 project3"
-    "project4 project4 project5 project5";
-  }*/
-    
+/***************************************************** Contact Me section 
+******************************************************/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2% 0% 2%;
+    background-color: var(--background);
+    color: var(--light);
+    align-items: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+ 
+.li-bottom-row {
+    padding: 2%;
+    justify-content: space-between;
+  }
+/***************************************************** 
+Media section 
+******************************************************/  
 @media screen and (max-width: 768px) {
-    header, nav {
+    header, nav, footer {
       flex-direction: column;
     }
-}
+  }
 
 @media screen and (min-width: 992px) {
-    header, nav {
+    header, nav, footer {
       width: 100%;
     }
-}
+  }
   
  
  

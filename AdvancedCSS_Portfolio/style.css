@@ -251,6 +251,7 @@ Project boxes
 .li-bottom-row {
     padding: 2%;
     justify-content: space-between;
+    font-size: smaller;
   }
 /***************************************
 Media section 

@@ -12,8 +12,9 @@ body {
     flex-direction: column;
   }
 
-/************************************************** Top name section with links 
-***************************************************/
+/***************************************
+Top name section with links 
+****************************************/
 .header {
     display: flex;
     justify-content: space-between;
@@ -59,14 +60,17 @@ div h2 {
     padding: 2%;   
   }
 
-/***************************************************** About Me and My Work section
-******************************************************/
-div h3 {
+/**********************************************
+ About Me and My Work section
+***********************************************/
+h3 {
     box-sizing: border-box;  
     float: left;
-    margin-right: 0 4% 2% 2%;
+    margin-right: 5%;
     padding: 2%;
-    width: 15%;
+    width: 85px;
+    min-width: 85px;
+    font-size: large;
   }
 
 p {
@@ -75,14 +79,38 @@ p {
 
 .container1 {
     display: flex;
-  }
+    width: 100%;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.box1 {
+    width: 100%;
+    height: 50%;
+}
+
+.box2 {
+    width: 50%;
+    height: 25%;
+}
+
+
+/*
 .container2 {
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: 100%; 
   }
-/***************************************************** Project boxes 
-******************************************************/
+  */
+/*******************************************
+Project boxes 
+********************************************/
+/*
 .wrapper {
     display: grid;
     grid-gap: 10px;
@@ -139,7 +167,7 @@ p {
 .project2 {
     background-image: url(https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   }
-
+*/
 /***************************************************** Contact Me section 
 ******************************************************/
 .footer {
@@ -157,9 +185,9 @@ p {
     padding: 2%;
     justify-content: space-between;
   }
-/***************************************************** 
+/***************************************
 Media section 
-******************************************************/  
+****************************************/  
 @media screen and (max-width: 768px) {
     header, nav, footer {
       flex-direction: column;

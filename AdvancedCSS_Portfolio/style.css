@@ -133,6 +133,7 @@ p {
     padding: 2px;
     margin: 1%;
     border: 3px solid aqua;
+    cursor: pointer;
 }
 
 .box2 {
@@ -141,6 +142,7 @@ p {
     padding: 2px;
     margin: 1%;
     border: 3px solid aqua;
+    cursor: pointer;
 }
 
 .project1-image {

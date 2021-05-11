@@ -227,21 +227,21 @@ p {
  * Media section 
  ***************************************/  
 @media screen and (max-width: 576px) {
-    header, nav, footer {
+    header, nav, main, footer {
       width: 100%;
       flex-direction: column;
     }
   }
 
 @media screen and (max-width: 768px) {
-    header, nav, footer {
+    header, nav, main, footer {
       flex-direction: column;
       width: 100%;
     }
   }
 
 @media screen and (min-width: 992px) {
-    header, nav, footer {
+    header, nav, main, footer {
       width: 100%;
     }
   }

@@ -16,6 +16,12 @@ body {
   white-space: nowrap;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: unset;
+}
+
 /***************************************
  * Header section with stuff about me 
  ***************************************/
@@ -99,7 +105,7 @@ h3 {
     min-width: 200px;
     font-size: 40px;
     text-align: right;
-    color: #214761;
+    color: var(--dark);
     font-family: fantasy, sans-serif;
   }
 
@@ -114,7 +120,7 @@ h4 {
     top: 75%;
     background-color: aqua;
     line-height: 42px;
-    color: #214761;
+    color: var(--dark);
     font-family: fantasy, sans-serif;
 }
 
@@ -129,12 +135,12 @@ h5 {
     top: 40%;
     position: relative;
     background-color: aqua;
-    color: #214761;
+    color: var(--dark);
     font-family: fantasy, sans-serif;
 }
 
 .solidLeftBorderLine {
-  border-left: 4px solid #214761;
+  border-left: 4px solid var(--dark);
   padding-left: 15px;
   width: 100%;
 }

@@ -48,7 +48,8 @@ nav ul {
     color: var(--light);
     font-weight: bold;
     margin-left: 5%;
-    font-family: fantasy, sans-serif;    
+    font-family: fantasy, sans-serif; 
+    padding: 0%;   
   }
 
 .bottomNav {
@@ -114,7 +115,7 @@ h4 {
     justify-content: center;
     width: 25%;
     min-width: 30%;
-    font-size: 75%;
+    font-size: 30px;
     color: black;
     position: relative;
     top: 75%;
@@ -228,12 +229,14 @@ p {
 @media screen and (max-width: 576px) {
     header, nav, footer {
       width: 100%;
+      flex-direction: column;
     }
   }
 
 @media screen and (max-width: 768px) {
     header, nav, footer {
       flex-direction: column;
+      width: 100%;
     }
   }
 

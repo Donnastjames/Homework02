@@ -119,7 +119,7 @@ h4 {
     color: black;
     position: relative;
     top: 75%;
-    background-color: aqua;
+    background-color: aquamarine;
     line-height: 42px;
     color: var(--dark);
     font-family: fantasy, sans-serif;
@@ -166,12 +166,9 @@ p {
     justify-content: flex-end;
 }
 
-.box1 {
-    width: 98%;
-    height: 56%;
-    margin: 1%;
-    border: 3px solid aqua;
+.cursorAndBorder {
     cursor: pointer;
+    border: 3px solid aquamarine
 }
 
 .box2 {

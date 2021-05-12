@@ -99,7 +99,7 @@ img {
  **********************************************/
 h3 {
     box-sizing: border-box;  
-    float: left;
+    float: right;
     margin-right: 1%;
     padding: 2%;
     width: 200px;
@@ -110,7 +110,7 @@ h3 {
     font-family: fantasy, sans-serif;
   }
 
-h4 {
+/* h4 {
     display: flex;
     justify-content: center;
     width: 25%;
@@ -118,12 +118,12 @@ h4 {
     font-size: 30px;
     color: black;
     position: relative;
-    top: 75%;
+    top: 80%;
     background-color: aquamarine;
     line-height: 42px;
     color: var(--dark);
     font-family: fantasy, sans-serif;
-}
+} */
 
 h5 {
     display: flex;
@@ -144,6 +144,24 @@ h5 {
   border-left: 4px solid var(--dark);
   padding-left: 15px;
   width: 100%;
+}
+
+.projectTitle1 {
+  background-color: aquamarine;
+  font-family: fantasy, sans-serif;
+  color: var(--dark);
+  width: fit-content;
+  position: relative;
+  top: 80%;
+}
+
+.projectTitle2 {
+  background-color: aquamarine;
+  font-family: fantasy, sans-serif;
+  color: var(--dark);
+  width: fit-content;
+  position: relative;
+  top: 62%;
 }
 
 p {
@@ -180,8 +198,10 @@ p {
 }
 
 .project1-image {
-    background-image: url(https://images.pexels.com/photos/287005/pexels-photo-287005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    flex: auto;
+    background-image: url('KidsCornerProject.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .project2-image {

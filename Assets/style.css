@@ -152,7 +152,8 @@ h5 {
   color: var(--dark);
   width: fit-content;
   position: relative;
-  top: 80%;
+  top: 86%;
+  margin-left: -6px;
 }
 
 .projectTitle2 {
@@ -161,7 +162,8 @@ h5 {
   color: var(--dark);
   width: fit-content;
   position: relative;
-  top: 62%;
+  top: 73%;
+  margin-left: -6px;
 }
 
 p {
@@ -175,14 +177,14 @@ p {
     width: 100%;
 }
 
-.container2 {
+/* .container2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     height: 700px;
     font-size: x-large;
     justify-content: flex-end;
-}
+} */
 
 .cursorAndBorder {
     cursor: pointer;
@@ -205,7 +207,7 @@ p {
 }
 
 .project2-image {
-    background-image: url(https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); 
+    background-image: url('WeatherDashboard.gif'); 
     background-size: cover;
 }
 

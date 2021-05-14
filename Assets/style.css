@@ -54,7 +54,7 @@ nav ul {
 
 .bottomNav {
     background-color: unset;
-    color: var(--dark);
+    color: var(--light);
     font-weight: bold;
     margin-left: 5%; 
     font-family: fantasy, sans-serif; 
@@ -83,23 +83,21 @@ h2 {
     margin: 0%;
     color: var--(light);
     font-family: fantasy, sans-serif;
+    position: relative;
+    top: 32px;
   }
 
 img {
-    height: 100px;
+    height: 115px;
     margin: 10px;
 }
-
-.li-top-row {
-    padding: 2%;   
-  }
 
 /**********************************************
  * About Me and My Work section
  **********************************************/
 h3 {
     box-sizing: border-box;  
-    float: right;
+    float: center;
     margin-right: 1%;
     padding: 2%;
     width: 200px;
@@ -110,36 +108,6 @@ h3 {
     font-family: fantasy, sans-serif;
   }
 
-/* h4 {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    min-width: 30%;
-    font-size: 30px;
-    color: black;
-    position: relative;
-    top: 80%;
-    background-color: aquamarine;
-    line-height: 42px;
-    color: var(--dark);
-    font-family: fantasy, sans-serif;
-} */
-
-h5 {
-    display: flex;
-    justify-content: center;
-    min-width: 35%;
-    max-width: 23%;
-    font-size: 50%;
-    line-height: 39px;
-    color: black;
-    top: 40%;
-    position: relative;
-    background-color: aqua;
-    color: var(--dark);
-    font-family: fantasy, sans-serif;
-}
-
 .solidLeftBorderLine {
   border-left: 4px solid var(--dark);
   padding-left: 15px;
@@ -147,23 +115,23 @@ h5 {
 }
 
 .projectTitle1 {
-  background-color: aquamarine;
+  background-color: var(--dark);
   font-family: fantasy, sans-serif;
-  color: var(--dark);
   width: fit-content;
   position: relative;
   top: 86%;
   margin-left: -6px;
+  padding: 6px;
 }
 
 .projectTitle2 {
-  background-color: aquamarine;
+  background-color: var(--dark);
   font-family: fantasy, sans-serif;
-  color: var(--dark);
   width: fit-content;
   position: relative;
   top: 73%;
   margin-left: -6px;
+  padding: 4px;
 }
 
 p {
@@ -177,26 +145,9 @@ p {
     width: 100%;
 }
 
-/* .container2 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    height: 700px;
-    font-size: x-large;
-    justify-content: flex-end;
-} */
-
 .cursorAndBorder {
     cursor: pointer;
-    border: 3px solid aquamarine
-}
-
-.box2 {
-    width: 48%;
-    height: 19%;
-    margin: 1%;
-    border: 3px solid aqua;
-    cursor: pointer;
+    border: 5px solid #015482;
 }
 
 .project1-image {
@@ -229,13 +180,6 @@ p {
 /***************************************
  * Contact Me footer section 
  ***************************************/
-.footer {
-    display: flex;
-    width: 100%;
-    color: var(--dark);
-    align-items: center;
-    margin-bottom: 1%;
-  }
  
 .li-bottom-row {
     padding: 2%;

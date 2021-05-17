@@ -163,7 +163,7 @@ p {
 }
 
 .project3-image {
-    background-image: url(https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+    background-image: url('TimedCodeQuiz.png'); 
     background-size: cover;
 }
 
@@ -183,7 +183,7 @@ p {
  
 .li-bottom-row {
     padding: 2%;
-    font-size: large;
+    font-size: medium;
     color: var(--dark);
   }
 /***************************************

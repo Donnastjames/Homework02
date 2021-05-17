@@ -6,4 +6,8 @@ I created a personal portfolio using HTML, CSS and Bootstrap.  The HTML contains
 
 ![Screen Shot of my Project](./Assets/Homework02ScreenShot.png)
 
+### Deployed Link 
+
+https://donnastjames.github.io/Professional-Portfolio/
+
 

@@ -48,7 +48,6 @@ nav ul {
     color: var(--light);
     font-weight: bold;
     margin-left: 5%;
-    font-family: fantasy, sans-serif; 
     padding: 0%;   
   }
 
@@ -65,7 +64,6 @@ h1 {
     font-size: 175%;
     margin-top: 5%;
     color: var(--light);
-    font-family: fantasy, sans-serif;
   }
 
 /***************************************
@@ -82,7 +80,6 @@ h2 {
     line-height: 80px;
     margin: 0%;
     color: var--(light);
-    font-family: fantasy, sans-serif;
     position: relative;
     top: 32px;
   }
@@ -105,7 +102,6 @@ h3 {
     font-size: 40px;
     text-align: right;
     color: var(--dark);
-    font-family: fantasy, sans-serif;
   }
 
 .solidLeftBorderLine {
@@ -116,7 +112,6 @@ h3 {
 
 .projectTitle1 {
   background-color: var(--dark);
-  font-family: fantasy, sans-serif;
   width: fit-content;
   position: relative;
   top: 86%;
@@ -126,7 +121,6 @@ h3 {
 
 .projectTitle2 {
   background-color: var(--dark);
-  font-family: fantasy, sans-serif;
   width: fit-content;
   position: relative;
   top: 73%;

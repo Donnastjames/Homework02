@@ -5,82 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
-  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
-  crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="./Assets/style.css" />
 </head>
 
 
 <body>
-  <!-- <nav class="navbar header nobr">
-    <div class="container justify-content-center">
-      <h1 class="align-text-bottom">Donna Crawford</h1>
-
-      <ul class="nav" style="width:700px">
-        <li class="nav-item upperNav">
-          <a class="nav-link active" aria-current="page" href="#About_Me" alt="About Me" style="color: white">About Me</a>
-        </li>
-        <li class="nav-item upperNav">
-          <a class="nav-link active" href="#My_work" alt="My Work" style="color: white">My Work</a>
-        </li>
-        <li class="nav-item upperNav">
-          <a class="nav-link active" href="#Contact_Me" alt="Contact Information" style="color: white">Contact Me</a>
-        </li>
-        <li class="nav-item upperNav">
-          <a class="nav-link active" href="./Assets/DCrawford_Resume2021.pdf" alt="Resume" style="color: white">Resume</a>
-        </li>
-      </ul>
+  <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200" class="uk-box-shadow-bottom uk-position-z-index">
+    <nav class="uk-navbar-container uk-navbar" style="background: darkslategrey">
+      <h1 class="uk-heading uk-text-left" style="margin-top: auto; margin-left: 17px; color: antiquewhite">Donna Crawford</h1>
+      <div class="uk-navbar-right uk-box-shadow-large">
+        <ul class="uk-navbar-nav">
+          <li class="uk-button-link uk-text-bolder"><a href="#About_Me" style="font-size: initial">About Me</a></li>
+          <li class="uk-button-link uk-text-bolder"><a href="#My_Work" style="font-size: initial">My Work</a></li>
+          <li class="uk-button-link uk-text-bolder"><a href="#Contact_Me" style="font-size: initial">Contact Me</a></li>
+          <li class="uk-button-link uk-text-bolder"><a href="./Assets/DCrawford_Resume2021.pdf" alt="Resume" target="_blank" rel="noopener noreferrer" style="font-size: initial">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-  </nav> -->
-  <nav class="uk-navbar-container uk-navbar" style="background: darkslategrey">
-    <h1 class="uk-heading uk-text-left" style="margin-top: auto; margin-left: 17px">Donna Crawford</h1>
-    <div class="uk-navbar-right">
-      <ul class="uk-navbar-nav">
-        <li class="uk-button-link uk-text-bolder"><a href="#About_Me" style="font-size: initial">About Me</span></a></li>
-        <li class="uk-button-link uk-text-bolder"><a href="#My_Work" style="font-size: initial">My Work</a></li>
-        <li class="uk-button-link uk-text-bolder"><a href="#Contact_Me" style="font-size: initial">Contact Me</a></li>
-        <li class="uk-button-link uk-text-bolder"><a href="./Assets/DCrawford_Resume2021.pdf" alt="Resume" target="_blank" rel="noopener noreferrer" style="font-size: initial">Resume</a></li>
-      </ul>
-
-    </div>
-  </nav>
-
   <main>
     <article>
-      <div class="container1" style="background-image: url('https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
-        <img src="./Assets/MyPhoto.jpeg" alt="My Photo" />
+      <div class="container1 uk-box-shadow-large" style="background-image: url('https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+        <img src="./Assets/MyPhoto.jpeg" alt="My Photo" class="uk-border-pill"/>
         <h2 class="font-weight-bold">Professional Portfolio</h2>
       </div>
     </article>
 
     <br />
 
-    <!-- <article>
-      <div class="card mb-3 justify-content-center" style="border: none">
-        <div class="row g-0">
-          <div class="col-md-3"><br>
-            <h3 id="About_Me">About Me</h3>
-          </div>
-          <div class="col-md-8 solidLeftBorderLine" style="padding-left: 30px; padding-right: 0px; margin-left: 20px"><br>
-            <p>
-              I grew up in California where I studied and received an associates degree in Economics.  I enjoyed working professionally as a Claims Auditor, and eventually as a Business Systems Analyst at Regence Blue Shield.  I got married and took care of my son, my pride and joy.  As my son grows more independent, I have more time to study and get back into the workforce.
-              </p>
-              <p> 
-              I am currently working as a Legal Assistant for a lawfirm in downtown Seattle.  Starting with a few text books, I took an interest in web development, and then resolved to attain certification. I have always been detail oriented, and I enjoy a good challenge.  I take pride in my work, and always strive to do better in everything that I do.  
-            </p>
-          </div>
-        </div>
-      </div>
-    </article> -->
-
     <article class="uk-article">   
-      <h3 id="About_Me" class="uk-article-title">About Me</h3>
+      <h3 id="About_Me" class="uk-article-title uk-position-z-index">About Me</h3>
       <p class="uk-text-medium" style="margin-left: 35px">
         I grew up in California where I studied and received an associates degree in Economics.  I enjoyed working professionally as a Claims Auditor, and eventually as a Business Systems Analyst at Regence Blue Shield.  I got married and took care of my son, my pride and joy.  As my son grows more independent, I have more time to study and get back into the workforce.
         </p>
@@ -88,24 +48,6 @@
         I am currently working as a Legal Assistant for a lawfirm in downtown Seattle.  Starting with a few text books, I took an interest in web development, and then resolved to attain certification. I have always been detail oriented, and I enjoy a good challenge.  I take pride in my work, and always strive to do better in everything that I do.  
       </p>
     </article>
-
-    <!-- <article>
-      <div class="card mb-3" style="border: none">
-        <div class="row g-0">
-          <div class="col-md-3"><br>
-            <h3 id="My_Work">My Work</h3>
-          </div>
-          <div class="d-flex col-md-8 solidLeftBorderLine" style="padding-left: 30px; padding-right: 0px; margin-left: 20px"><br>
-            <div class="container-fluid">
-              <div class="row" style="height: 420px">
-                <a class="col-12 project1-image cursorAndBorder" href='https://github.com/Donnastjames/Project-1' target="_blank" rel="noopener noreferrer">
-                  <div class="projectTitle1 text-sm-left font-weight-bold" style="font-size: 19px; color: white">Kid's Corner</div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
     <article class="uk-article">
       <h3 id="My_Work" class="uk-article-title">My Work</h3>
@@ -115,19 +57,31 @@
           <li>
               <img src="Assets/KidsCornerProject.png" alt="Kids Corner Project" uk-cover>
               <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom uk-visible-toggle" style="margin-left: 10px">
-                <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Project-1' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder">Kid's Corner</a>
+                <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Project-1' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder uk-animation-hover" style="font-size: x-large;">Kid's Corner</a>
               </div>
           </li>
           <li>
             <img src="Assets/WeatherDashboard.gif" alt="Weather Dashboard" uk-cover>
             <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom uk-visible-toggle" style="margin-left: 10px">
-              <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Weather-Dashboard' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder">Weather Dashboard</a>
+              <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Weather-Dashboard' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder uk-animation-hover" style="font-size: x-large;">Weather Dashboard</a>
             </div>
           </li>
           <li>
             <img src="Assets/TechBlog.png" alt="Tech Blog" uk-cover>
             <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom" style="margin-left: 10px">
-              <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Tech_Blog' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder">Tech Blog</a>
+              <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Tech_Blog' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder uk-animation-hover" style="font-size: x-large;">Tech Blog</a>
+            </div>
+          </li>
+          <li>
+            <img src="Assets/GiftList.png" alt="Tech Blog" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom" style="margin-left: 10px">
+              <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Project-2-Gift-List' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder uk-animation-hover" style="font-size: x-large;">Gift List</a>
+            </div>
+          </li>
+          <li>
+            <img src="Assets/TimedCodeQuiz.png" alt="Tech Blog" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom" style="margin-left: 10px">
+              <a uk-slideshow-parallax="x: 100,-100" href='https://github.com/Donnastjames/Timed-Code-Quiz' target="_blank" rel="noopener noreferrer" class="uk-button-link uk-text-bolder uk-animation-hover" style="font-size: x-large;">Timed Code Quiz</a>
             </div>
           </li>
         </ul>
@@ -135,82 +89,26 @@
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="color: white; background-color: gray; border-radius: .5em;" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: white; background-color: gray; border-radius: .5em;" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     
-    </div>  
-      
-
-      <!-- <div class="card mb-3" style="border: none">
-        <div class="row g-0">
-          <div class="col-md-3">
-          </div>
-          <div class="d-flex col-md-8 solidLeftBorderLine" style="padding-left: 30px; padding-right: 0px; margin-left: 20px">
-            <div class="container-fluid">
-              <div class="row" style="height: 150px">
-              <a class="col-6 project2-image cursorAndBorder" href='https://github.com/Donnastjames/Weather-Dashboard' target="_blank" rel="noopener noreferrer">
-                    <div class="projectTitle2 text-sm-left font-weight-bold" style="font-size: 19px; color: white">Weather Dashboard</div>
-                  </a>
-              <a class="col-6 project3-image cursorAndBorder" href='https://github.com/Donnastjames/Timed-Code-Quiz' target="_blank" rel="noopener noreferrer">
-                    <div class="projectTitle2 text-sm-left font-weight-bold" style="font-size: 19px; color: white">Timed Code Quiz</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      <div class="card mb-3" style="border: none">
-        <div class="row g-0">
-          <div class="col-md-3">
-          </div>
-          <div class="d-flex col-md-8 solidLeftBorderLine" style="padding-left: 30px; padding-right: 0px; margin-left: 20px">
-            <div class="container-fluid">
-              <div class="row" style="height: 150px">
-                <a class="col-6 project4-image cursorAndBorder" href='https://www.linkedin.com/in/donna-crawford-943980195/' target="_blank" rel="noopener noreferrer">
-                  <div class="projectTitle2 text-sm-left font-weight-bold" style="font-size: 19px; color: white">LinkedIn</div>
-                </a>
-                <a class="col-6 project5-image cursorAndBorder" href='https://github.com/Donnastjames' target="_blank" rel="noopener noreferrer">
-                  <div class="projectTitle2 text-sm-left font-weight-bold" style="font-size: 19px; color: white">Github</div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
+      </div>  
     </article>
-    <br />
   </main>
 
   <footer>
-    <div class="row g-0">
-      <div class="col-md-3"><br>
-        <h3 id="Contact_Me">Contact Me</h3>
-      </div>
-      <div class="d-flex col-md-8 solidLeftBorderLine" style="padding-left: 30px; padding-right: 0px; margin-left: 20px"><br>
-        <nav class="justify-content-center" style="background: #214761; color: white">
-          <ul class="list-unstyled" style="justify-content: center; flex-wrap: wrap">
-            <li class="li-bottom-row bottomNav nobr">
-              <a href="tel:1-253-277-0421" alt="Phone number">253 277-0421</a>
-            </li>
-            <li class="li-bottom-row bottomNav nobr"> 
-              <a href="mailto:crawford0774@gmail.com" alt="email address">crawford0774@gmail.com</a>
-            </li>
-            <li class="li-bottom-row bottomNav nobr">
-              <a href="https://www.linkedin.com/in/donna-crawford-943980195/" target="_blank" rel="noopener noreferrer" alt="LinkedIn" style="color: white;">LinkedIn</a>
-            </li>
-            <li class="li-bottom-row bottomNav nobr">
-              <a href="https://github.com/Donnastjames" target="_blank" rel="noopener noreferrer" alt="github" style="color: white;">Github</a>
-            </li>
+    <div class="uk-article">
+      <nav class="uk-navbar-container uk-navbar" style="background: darkslategrey; margin-left: 10px;">
+        <h1 id="Contact_Me" class="uk-heading uk-text-left" style="margin-top: auto; margin-left: 17px;">Contact Me</h3>
+        <div class="uk-navbar-right uk-box-shadow-large">
+          <ul class="uk-navbar-nav">
+            <li class="uk-button-link uk-text-bolder"><a href="tel:1-253-277-0421" alt="Phone number" style="font-size:larger" class="uk-text-capitalize">Phone<i class="fas fa-phone-square-alt uk-animation-hover" style="size: 2x"></i></a></li>
+            <li class="uk-button-link uk-text-bolder"><a href="mailto:crawford0774@gmail.com" alt="email address" style="font-size:larger" class="uk-text-capitalize">Email<i class="fas fa-envelope-square uk-animation-hover" style="size: 2x"></i></a></li>
+            <li class="uk-button-link uk-text-bolder"><a href="https://www.linkedin.com/in/donna-crawford-943980195/" target="_blank" rel="noopener noreferrer" alt="LinkedIn" style="font-size:larger" class="uk-text-capitalize">LinkedIn<i class="fab fa-linkedin uk-animation-hover" style="size: 2x"></i></a></li>
+            <li class="uk-button-link uk-text-bolder"><a href="https://github.com/Donnastjames" target="_blank" rel="noopener noreferrer" alt="github" style="font-size:larger" class="uk-text-capitalize">GitHub<i class="fab fa-github uk-animation-hover" style="size: 2x"></i></a></li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
   </footer>
 
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-  crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
-  crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
 </body>

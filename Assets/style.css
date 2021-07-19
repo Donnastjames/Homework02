@@ -63,7 +63,7 @@ nav ul {
 h1 {
     font-size: 175%;
     margin-top: 5%;
-    color: var(--light);
+    color: antiquewhite;
   }
 
 /***************************************
@@ -141,33 +141,6 @@ p {
 .cursorAndBorder {
     cursor: pointer;
     border: 5px solid #015482;
-}
-
-.project1-image {
-    flex: auto;
-    background-image: url('KidsCornerProject.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.project2-image {
-    background-image: url('WeatherDashboard.gif'); 
-    background-size: cover;
-}
-
-.project3-image {
-    background-image: url('TimedCodeQuiz.png'); 
-    background-size: cover;
-}
-
-.project4-image {
-    background-image: url(https://images.pexels.com/photos/4215113/pexels-photo-4215113.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); 
-    background-size: cover;
-}
-
-.project5-image {
-    background-image: url(https://images.pexels.com/photos/927414/pexels-photo-927414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
-    background-size: cover;
 }
 
 /***************************************
